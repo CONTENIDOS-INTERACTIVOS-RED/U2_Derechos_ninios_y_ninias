@@ -305,7 +305,8 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema:
+          'Estado de los derechos referidos a la salud, la educación, la violencia y el abuso sexual en Colombia',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -314,28 +315,30 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál de los siguientes factores representa una de las principales barreras para el acceso a la educación en la primera infancia en Colombia?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'La sobrepoblación en las zonas rurales.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto:
+                  'La falta de cobertura y calidad en los programas educativos.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'El uso de metodologías activas en el aula.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto:
+                  'La sobreprotección de los niños y niñas por parte de sus familias.',
                 esCorrecta: false,
               },
             ],
@@ -345,28 +348,28 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              '¿Qué entidad en Colombia es responsable de la garantía y protección de los derechos de la infancia?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                texto: 'Instituto Colombiano de Bienestar Familiar (ICBF).',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Ministerio de Transporte.',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Fiscalía General de la Nación.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Superintendencia de Industria y Comercio.',
                 esCorrecta: false,
               },
             ],
@@ -376,28 +379,29 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Cuál de las siguientes situaciones constituye una forma de violencia infantil?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto: 'El castigo físico como método disciplinario.',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto:
+                  'La participación de los niños en actividades recreativas.',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'El acceso a servicios de salud de calidad.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'La educación inclusiva en la primera infancia.',
                 esCorrecta: false,
               },
             ],
@@ -406,28 +410,29 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Cuál es uno de los principales riesgos de la desnutrición infantil en la primera infancia?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Mejora en la capacidad de aprendizaje.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Mayor resistencia a enfermedades.',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Retraso en el desarrollo físico y cognitivo.',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Aumento en la tasa de natalidad.',
                 esCorrecta: false,
               },
             ],
@@ -437,28 +442,28 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿Qué derecho fundamental se vulnera cuando un niño o niña no tiene acceso a servicios de salud adecuados?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'Derecho a la identidad.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'Derecho a la recreación.',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Derecho a la vida y a la salud.',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'Derecho a la participación.',
                 esCorrecta: false,
               },
             ],
