@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Unidad 3: Bioética y sostenibilidad en el desarrollo económico global, establece los principios esenciales para comprender cómo los valores éticos y bioéticos pueden orientar el desarrollo económico hacia la sostenibilidad. Esta unidad proporciona una perspectiva integral sobre la relación entre la economía, el medio ambiente y los derechos humanos, destacando la importancia de prácticas responsables en contextos globalizados. Este enfoque asegura que los estudiantes adquieran una comprensión sólida de los desafíos éticos actuales y las estrategias sostenibles, permitiéndoles aplicar estas herramientas de manera efectiva en su formación profesional y en la vida cotidiana.
+      p(data-aos="fade-up").mb-5 A lo largo de esta unidad, se analiza la situación actual de los derechos de los niños y las niñas en la primera infancia en Colombia, con un enfoque particular en el acceso a la salud y la educación, así como en la prevención de la violencia y el abuso infantil. Aunque se han logrado avances en normativas y políticas de protección, persisten brechas significativas que afectan el bienestar de la niñez en contextos vulnerables, lo que evidencia la necesidad de fortalecer estrategias que garanticen una protección integral y efectiva. 
 
       .row.justify-content-center
         .col-lg-12.mb-5
