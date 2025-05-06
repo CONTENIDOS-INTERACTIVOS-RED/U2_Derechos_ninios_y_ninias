@@ -61,7 +61,7 @@
         figure
           img.img-a.img-t(src="@/assets/curso/temas/30.png", data-aos="zoom-in") 
 
-    h3(data-aos="fade-down") Factores de riesgo y estrategias de prevención en la primera infancia      
+    h3(data-aos="fade-down") Factores familiares  
     p(data-aos="fade-down") La familia es el primer espacio de socialización, pero cuando está marcada por disfunción o carece de condiciones adecuadas, puede convertirse en un entorno riesgoso:
 
     .bg-full-width.bg-color-info.mb-5(data-aos="fade-right")
@@ -91,6 +91,7 @@
 
     .bg-full-width-1.bg-fondo-1
       .px-4.px-md-5.pb-md-3
+        h3(data-aos="fade-down") Factores comunitarios
         p(data-aos="fade-down") El entorno donde vive un niño también influye en su seguridad y oportunidades:
 
         div.row.justify-content-center.align-items-stretch.text-center
@@ -220,7 +221,7 @@
 
     .bg-full-width-1.bg-fondo-1
       .px-4.px-md-5.pb-md-3
-        p(data-aos="fade-down") Creación de entornos comunitarios protectores       
+        h3(data-aos="fade-down") Creación de entornos comunitarios protectores       
         p(data-aos="fade-down") A través de infraestructuras adecuadas, políticas públicas y redes comunitarias, se busca garantizar el cuidado y la protección desde lo colectivo.
 
         div.row.justify-content-center.align-items-stretch.text-center
@@ -248,7 +249,7 @@
           .col-lg-8.mb-3.mb-lg-0
             h2.mb-4(data-aos="flip-up") La escuela como espacio protector: el rol del docente frente a la violencia infantil
             p.mb-4(data-aos="fade-right") Se invita a leer el documento La escuela como espacio protector: el rol del docente frente a la violencia infantil, donde se examina cómo la escuela y los docentes pueden convertirse en agentes fundamentales para la detección, prevención y atención de situaciones de violencia contra niños y niñas en la primera infancia.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

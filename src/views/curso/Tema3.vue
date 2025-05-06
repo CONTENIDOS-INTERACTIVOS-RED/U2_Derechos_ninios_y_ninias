@@ -61,7 +61,7 @@
           .col-lg-8.mb-3.mb-lg-0
             h2.mb-4(data-aos="flip-up") Estrategias para la inclusión y equidad educativa
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Estrategias para la inclusión y equidad educativa, donde se analiza cómo garantizar que todos los niños y las niñas, sin importar su contexto o condición, tengan acceso a una educación inicial inclusiva y de calidad. 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

@@ -16,7 +16,8 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Declaración Universal de los Derechos Humanos',
+        titulo:
+          'Situación actual de los derechos de la primera infancia en Colombia',
         desarrolloContenidos: true,
       },
       {

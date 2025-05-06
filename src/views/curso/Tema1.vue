@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Declaración Universal de los Derechos Humanos'")
+  BannerInterno(:subTitulo="'1. Situación actual de los derechos de la primera infancia en Colombia'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0 
@@ -19,8 +19,6 @@
 
     .row.mb-5
       .col-lg-8.mb-3.mb-lg-0 
-        p(data-aos="fade-down") ¿Realmente, todos los niños y las niñas en Colombia, tienen garantizados sus derechos en salud, educación y protección? Aunque la primera infancia ha sido reconocida como una etapa clave en el desarrollo integral y el país ha avanzado en políticas y normativas para su protección, #[b persisten desafíos significativos], especialmente en comunidades vulnerables, donde el acceso a servicios esenciales sigue siendo insuficiente.
-
         .bg-color-1.p-4.mb-4(data-aos="fade-left")
           p.mb-0 #[b La protección contra la violencia y el abuso], es otro ámbito crítico. El maltrato infantil, el abuso sexual y la negligencia parental, siguen afectando a miles de menores. La falta de mecanismos de denuncia efectivos, la #[b revictimización] y la #[b impunidad], agravan esta situación, dejando a muchos niños expuestos a entornos inseguros.
         p(data-aos="fade-down") A pesar de los avances normativos, las brechas en salud, educación y protección, siguen siendo profundas. Cada cifra y testimonio evidencian una realidad compleja que interpela a toda la sociedad, especialmente a quienes forman a las nuevas generaciones. La pobreza, la desigualdad y la debilidad institucional en ciertos territorios, hacen que muchos infantes no cuenten con las condiciones mínimas para su desarrollo integral.

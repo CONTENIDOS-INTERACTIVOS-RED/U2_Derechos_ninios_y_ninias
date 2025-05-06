@@ -101,7 +101,7 @@
           .col-lg-8.mb-3.mb-lg-0
             h2.mb-4(data-aos="flip-up") Problemáticas en salud infantil: desnutrición, enfermedades prevalentes y mortalidad infantil
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Factores socioeconómicos que impactan el ejercicio de sus derechos, donde se aborda cómo diversas condiciones socioeconómicas, afectan el desarrollo integral y el ejercicio de los derechos de la primera infancia en Colombia. 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
